@@ -1,42 +1,34 @@
 ﻿@model List<My_First_MVC_App.Models.Recipient>
 
-@{
-    
-}
-
-<!-- Link Stylesheet -->
-
 <html lang="en">
 <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width", initial-scale="1.0" />
     <title>Time</title>
-    <link rel="stylesheet" href="~/StyleSheet.css" />
+    <link rel="stylesheet" href="~/StyleSheet.css" type="text/css" />
 </head>
 <body>
     <header>
         <div>
-            <h1>TIME</h1>
+            <p><b>Person</b> <em>of the</em> <b>Year</b></p>
+            <img src="~/TIME.png" />
         </div>
+        <hr />
     </header>
 
     <main>
-        <p>Person Of The Year</p>
+
         <form method="post">
-            <label for="begYear">Beginning Year
-                <input maxlength="4" name="begYear" />
+            <label for="begYear">
+                <input maxlength="4" name="begYear" placeholder="Beginning Year" />
             </label>
-            <label for="endYear">Ending Year
-                <input maxlength="4" name="endYear" />
+            <label for="endYear">
+                <input maxlength="4" name="endYear" placeholder="Ending Year" />
             </label>
             <button type="submit">Submit</button>
         </form>
+
     </main>
-
-    <footer>
-        <ul></ul>
-    </footer>
-
 </body>
 
 </html>

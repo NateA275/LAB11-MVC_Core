@@ -5,13 +5,15 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width" , initial-scale="1.0" />
     <title>Time</title>
-    <link rel="stylesheet" href="~/StyleSheet.css" />
+    <link rel="stylesheet" href="~/StyleSheet.css" type="text/css" />
 </head>
 <body>
     <header>
         <div>
-            <h1>TIME</h1>
+            <p><b>Person</b> <em>of the</em> <b>Year</b></p>
+            <img src="~/TIME.png" />
         </div>
+        <hr />
     </header>
 
     <main>
@@ -40,12 +42,13 @@
             </tr>
             }
         </table>
+        <hr />
+        <footer>
+            <div>
+                <a asp-controller="Home" asp-action="Index">New Search</a>
+            </div>
+        </footer>
     </main>
-
-    <footer>
-        <ul></ul>
-    </footer>
-
 </body>
 
 </html>
