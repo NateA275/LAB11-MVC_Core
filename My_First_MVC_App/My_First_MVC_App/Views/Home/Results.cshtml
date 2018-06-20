@@ -1,0 +1,52 @@
+﻿@model List<My_First_MVC_App.Models.Recipient>
+
+<html lang="en">
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width" , initial-scale="1.0" />
+    <title>Time</title>
+    <link rel="stylesheet" href="~/StyleSheet.css" />
+</head>
+<body>
+    <header>
+        <div>
+            <h1>TIME</h1>
+        </div>
+    </header>
+
+    <main>
+        <table>
+            <tr>
+                <th>Year Awarded</th>
+                <th>Name</th>
+                <th>Home Country</th>
+                <th>Birth Year</th>
+                <th>Year of Death</th>
+                <th>Title</th>
+                <th>Category</th>
+                <th>Context</th>
+            </tr>
+            @foreach (var r in Model)
+            { 
+            <tr>
+                <td>@r.Year</td>
+                <td>@r.Name</td>
+                <td>@r.Country</td>
+                <td>@r.BirthYear</td>
+                <td>@r.DeathYear</td>
+                <td>@r.Title</td>
+                <td>@r.Category</td>
+                <td>@r.Context</td>
+            </tr>
+            }
+        </table>
+    </main>
+
+    <footer>
+        <ul></ul>
+    </footer>
+
+</body>
+
+</html>
+

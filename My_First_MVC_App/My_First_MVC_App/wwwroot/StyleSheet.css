@@ -1,0 +1,14 @@
+﻿* {
+    font-family: 'Times New Roman', Times, serif
+}
+
+html {
+    background-color: rgb(176, 176, 176);
+}
+
+body {
+    background-color: white;
+    max-width: 960px;
+    margin: auto;
+    border: 1.5em solid red;
+}
