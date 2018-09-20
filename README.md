@@ -1,6 +1,6 @@
-![TIME](./My_First_MVC_App/My_First_MVC_App/wwwroot/TIME.png)
+<img src="./My_First_MVC_App/My_First_MVC_App/wwwroot/TIME.png" alt="TIME" width="200">
 
-# TIME Person of the Year
+# Person of the Year
 
 This web application is an exercise in the .NET Core MVC architecture.
 
